@@ -1,6 +1,6 @@
 import '../app/App.scss';
 import Main from "../main/main"
-import Footer from "../footer/footer"
+import Catalog from "../catalog/catalog"
 import {  BrowserRouter,  Routes,  Route} from "react-router-dom"
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main/>} />
-        <Route path="/footer" element={<Footer/>} />
+        <Route path="/catalog" element={<Catalog/>} />
       </Routes>
   </BrowserRouter>
   );
