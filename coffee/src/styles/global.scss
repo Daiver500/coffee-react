@@ -1,20 +1,5 @@
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 a {
   text-decoration: none;
-}
-
-a:link {
-  color: $green;
 }
 
 *,
@@ -37,21 +22,9 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: center;
 }
 
-.include {
-  display: none;
-}
-
-.main {
-  flex-grow: 1;
-}
-
-.main__button {
+.button {
   font-family: "PTMono", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -66,8 +39,8 @@ body {
   position: relative;
 }
 
-.main__button:hover,
-.main__button:focus {
+.button:hover,
+.button:focus {
   background-color: $white;
   color: $black;
   border: 1px solid $black;

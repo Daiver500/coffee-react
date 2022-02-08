@@ -1,7 +1,7 @@
 import { Component, Fragment } from 'react';
 import Header from '../common/header/navigation';
 
-class Catalog extends Component {
+class Goods extends Component {
   
     constructor(props) {
       super(props);
@@ -10,10 +10,10 @@ class Catalog extends Component {
         return(
             <Fragment>
             <Header></Header>
-            <h1>Catalog</h1>
+            <h1>Goods</h1>
             </Fragment>
         )
     }
 }
 
-export default Catalog
+export default Goods
