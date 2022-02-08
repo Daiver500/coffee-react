@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "editorconfig": "editorconfig-cli"
   },
   "eslintConfig": {
     "extends": [
@@ -23,6 +24,10 @@
       "react-app/jest"
     ]
   },
+  "editorconfig-cli": [
+    "src/**/*.html",
+    "src/**/**/*.{sass,scss}"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
     "react-router-dom": "^6.2.1",
     "sass": "^1.49.7"
   }
