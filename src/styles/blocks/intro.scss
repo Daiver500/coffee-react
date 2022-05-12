@@ -1,0 +1,29 @@
+
+.intro {
+  min-height: 640px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro .container {
+  margin-top: auto;
+}
+
+.intro__inner {
+  padding-top: 40px;
+  padding-bottom: 46px;
+  position: relative;
+}
+
+
+.intro__image {
+  position: absolute;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.intro__title {
+  margin: 0;
+}

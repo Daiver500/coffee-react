@@ -1,0 +1,25 @@
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 30px;
+  width: 100%;
+}
+
+@media (max-width: $max-tablet-width) {
+  .container {
+    max-width: 1023px;
+  }
+}
+
+@media (max-width: $max-mobile-width) {
+  .container {
+    max-width: 767px;
+  }
+}
+
+.container--header {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 80px;
+  width: 100%;
+}
