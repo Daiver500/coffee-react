@@ -19,9 +19,10 @@
 
 .intro__image {
   position: absolute;
-  min-height: 100%;
+  height: 100%;
   top: 0;
   left: 0;
+  object-fit: cover;
 }
 
 .intro__title {

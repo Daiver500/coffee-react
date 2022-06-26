@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import '../../styles/style.scss';
-import Header from '../common/header/navigation';
-import Intro from './intro/intro';
-import About from './about/about';
-import Products from './products/products';
+import Header from '../common/header/header';
+import Intro from '../blocks/intro/intro';
+import About from '../blocks/about/about';
+import Products from '../blocks/products/products';
 import Footer from '../common/footer/footer';
 
 class Main extends Component {

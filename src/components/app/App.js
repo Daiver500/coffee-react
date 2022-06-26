@@ -1,7 +1,7 @@
 import '../../styles/style.scss';
-import Main from "../main/main"
-import Catalog from "../catalog/catalog"
-import Goods from "../goods/goods"
+import Main from "../pages/main"
+import Catalog from "../pages/catalog"
+import Goods from "../pages/goods"
 import {  BrowserRouter,  Routes,  Route} from "react-router-dom"
 
 

@@ -1,6 +1,6 @@
 import { Component, Fragment } from 'react';
 import '../../styles/style.scss';
-import Header from '../common/header/navigation';
+import Header from '../common/header/header';
 import Footer from '../common/footer/footer';
 
 class Catalog extends Component {
